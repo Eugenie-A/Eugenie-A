@@ -33,7 +33,7 @@
 **Webpage on Photography(Web)** – (Nov 2025)  
 
 - Developed with [HTML & CSS] for a smooth web page experience
-- 🔗 [WebPageOnPhotography_EugenieAhangama]([https://apps.apple.com/your-app-link) - A web page, showcasing my passion for photography.
+- 🔗 [WebPageOnPhotography_EugenieAhangama](https://eugenie-a.github.io/WebPageOnPhotography_EugenieAhangama/) - A web page, showcasing my passion for photography.
 
 ---
 ### 🎓 Education
