@@ -25,7 +25,7 @@
 - Added custom styling with responsive design and animations
 - Added lightweight interactions and enhancements
 - Handled deployment challenges and ensured compliance with platform guidelines  
-- 🔗 [Live on Web](https://nuggetz-works-portfolio.vercel.app/)
+- 🔗 [Live on Web](https://nuggetz-works-portfolio.vercel.app/) - A personal portfolio website
 
 ---
 ### 🛠 Personal Projects
@@ -33,7 +33,7 @@
 **Webpage on Photography(Web)** – (Nov 2025)  
 
 - Developed with [HTML & CSS] for a smooth web page experience
-- 🔗 [WebPageOnPhotography_EugenieAhangama](https://eugenie-a.github.io/WebPageOnPhotography_EugenieAhangama/) - A web page, showcasing my passion for photography.
+- 🔗 [LIve on Web](https://eugenie-a.github.io/WebPageOnPhotography_EugenieAhangama/) - A web page, showcasing my passion for photography.
 
 ---
 ### 🎓 Education
