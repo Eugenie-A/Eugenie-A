@@ -25,7 +25,7 @@
 - Added custom styling with responsive design and animations
 - Added lightweight interactions and enhancements
 - Handled deployment challenges and ensured compliance with platform guidelines  
-- 🔗 [Live on Web]() - A personal portfolio website
+- 🔗 [Live on Web](https://nuggetz-works-portfolio.vercel.app/) - A personal portfolio website
 
 ---
 ### 🛠 Personal Projects
