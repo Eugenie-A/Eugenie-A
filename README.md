@@ -38,7 +38,7 @@
 ---
 ### 🎓 Education
 
-**Bachelor of Science in Computer Science** – [Lower Second Class Honours]  
+**Bachelor of Science in Computer Science**  
 [University of Westminster]  
 [September 2020 – July 2023]  
 📍 115 New Cavendish St, London W1W 6UW
