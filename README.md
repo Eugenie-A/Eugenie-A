@@ -3,7 +3,7 @@
 
 ---
 
-🎯 Computer Science graduate (Lower Second Class Honours) with a genuine passion for crafting meaningful apps. I thrive on combining cutting-edge tools with thoughtful, user-first design to solve real problems. Whether it's tinkering on personal projects or delivering client-ready solutions, my goal is always to create intuitive and delightful digital experiences.
+🎯 Computer Science graduate with a genuine passion for crafting meaningful apps. I thrive on combining cutting-edge tools with thoughtful, user-first design to solve real problems. Whether it's tinkering on personal projects or delivering client-ready solutions, my goal is always to create intuitive and delightful digital experiences.
 
 ---
 ### 🔗 Connect With Me
