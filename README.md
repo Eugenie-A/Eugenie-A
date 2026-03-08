@@ -8,7 +8,7 @@
 ---
 ### 🔗 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-CONNECT-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/eugenieahangama/)  [![Email](https://img.shields.io/badge/Email-SEND-red?style=for-the-badge&logo=gmail)](mailto:eugenieahangama@gmail.com)  [![Portfolio](https://img.shields.io/badge/Portfolio-VISIT-purple?style=for-the-badge&logo=github)]([https://github.com/Eugenie-A](https://nuggetz-works-portfolio.vercel.app/)) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-CONNECT-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/eugenieahangama/)  [![Email](https://img.shields.io/badge/Email-SEND-red?style=for-the-badge&logo=gmail)](mailto:eugenieahangama@gmail.com)  [![Portfolio](https://img.shields.io/badge/Portfolio-VISIT-purple?style=for-the-badge&logo=github)](https://nuggetz-works-portfolio.vercel.app/))
 
 ---
 ## 🌱 Current focus
