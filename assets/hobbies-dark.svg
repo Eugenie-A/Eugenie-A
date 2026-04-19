@@ -7,24 +7,28 @@
 
   <rect width="1000" height="80" fill="#0d1117" rx="12"/>
 
-  <rect x="16"  y="20" width="136" height="34" rx="17" fill="#1a1a35"/>
-  <text x="84"  y="42" text-anchor="middle" class="tag" fill="#b392f0">Semantic HTML</text>
+  <!-- Video editing -->
+  <rect x="16" y="20" width="120" height="34" rx="17" fill="#1f2937"/>
+  <text x="76" y="42" text-anchor="middle" class="tag" fill="#f0c040">Video editing</text>
 
-  <rect x="160" y="20" width="134" height="34" rx="17" fill="#1a2535"/>
-  <text x="227" y="42" text-anchor="middle" class="tag" fill="#79b8ff">Web animations</text>
+  <!-- Motion design -->
+  <rect x="144" y="20" width="118" height="34" rx="17" fill="#2d1b1b"/>
+  <text x="203" y="42" text-anchor="middle" class="tag" fill="#f97583">Motion design</text>
 
-  <rect x="302" y="20" width="106" height="34" rx="17" fill="#1a2a1a"/>
-  <text x="355" y="42" text-anchor="middle" class="tag" fill="#85e89d">Deployment</text>
+  <!-- Coding side projects -->
+  <rect x="270" y="20" width="158" height="34" rx="17" fill="#1a2535"/>
+  <text x="349" y="42" text-anchor="middle" class="tag" fill="#79b8ff">Coding side projects</text>
 
-  <rect x="416" y="20" width="116" height="34" rx="17" fill="#2d1b1b"/>
-  <text x="474" y="42" text-anchor="middle" class="tag" fill="#f97583">Accessibility</text>
+  <!-- Music production -->
+  <rect x="436" y="20" width="138" height="34" rx="17" fill="#2d1b2d"/>
+  <text x="505" y="42" text-anchor="middle" class="tag" fill="#f778ba">Music production</text>
 
-  <rect x="540" y="20" width="118" height="34" rx="17" fill="#1f2937"/>
-  <text x="599" y="42" text-anchor="middle" class="tag" fill="#f0c040">Motion design</text>
+  <!-- UI/UX exploration -->
+  <rect x="582" y="20" width="138" height="34" rx="17" fill="#1a1a35"/>
+  <text x="651" y="42" text-anchor="middle" class="tag" fill="#b392f0">UI/UX exploration</text>
 
-  <rect x="666" y="20" width="100" height="34" rx="17" fill="#2d1b2d"/>
-  <text x="716" y="42" text-anchor="middle" class="tag" fill="#f778ba">SFX / audio</text>
+  <!-- Gaming -->
+  <rect x="728" y="20" width="84" height="34" rx="17" fill="#1a2a1a"/>
+  <text x="770" y="42" text-anchor="middle" class="tag" fill="#85e89d">Gaming</text>
 
-  <rect x="774" y="20" width="120" height="34" rx="17" fill="#1a2a1a"/>
-  <text x="834" y="42" text-anchor="middle" class="tag" fill="#85e89d">Video editing</text>
 </svg>
