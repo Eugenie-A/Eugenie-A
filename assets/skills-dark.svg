@@ -1,0 +1,139 @@
+<svg width="800" viewBox="0 0 800 620" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Eugenie-A Technical Skills</title>
+  <desc>A visual breakdown of Eugenie-A's technical skills grouped by category</desc>
+  <defs>
+    <style>
+      .sec  { font: 500 11px/1 'Segoe UI', sans-serif; fill: #888780; letter-spacing: 0.08em; text-transform: uppercase; }
+      .name { font: 500 14px/1 'Segoe UI', sans-serif; fill: #F1EFE8; }
+      .cat  { font: 400 11px/1 'Segoe UI', sans-serif; fill: #888780; }
+      .card { fill: #2C2C2A; stroke: #444441; stroke-width: 0.5; }
+      .tag-text { font: 500 12px/1 'Segoe UI', sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="800" height="620" fill="#1a1a18" rx="16"/>
+
+  <!-- LANGUAGES -->
+  <text x="24" y="32" class="sec">Languages</text>
+
+  <!-- JS -->
+  <rect x="24" y="44" width="368" height="56" rx="12" class="card"/>
+  <rect x="40" y="59" width="26" height="26" rx="7" fill="#412402"/>
+  <path d="M53 65l-8 9.5h7l-.8 6.5 8-9.5h-7l.8-6.5z" fill="#FAC775"/>
+  <text x="74" y="72" class="name">JavaScript</text>
+  <text x="74" y="87" class="cat">Web / scripting</text>
+
+  <!-- Python -->
+  <rect x="408" y="44" width="368" height="56" rx="12" class="card"/>
+  <rect x="424" y="59" width="26" height="26" rx="7" fill="#26215C"/>
+  <path d="M430 65l8 4-8 4 8 4-8 4 8 4-8 4" stroke="#AFA9EC" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="458" y="72" class="name">Python</text>
+  <text x="458" y="87" class="cat">Data / scripting</text>
+
+  <!-- Swift -->
+  <rect x="24" y="112" width="368" height="56" rx="12" class="card"/>
+  <rect x="40" y="127" width="26" height="26" rx="7" fill="#4A1B0C"/>
+  <path d="M53 130c3 0 6 2 7 5-2-1-5-1-7 1-3 2-4 5-3 8-2-2-3-5-2-8 0-4 3-6 5-6z" fill="#F0997B"/>
+  <text x="74" y="140" class="name">Swift / SwiftUI</text>
+  <text x="74" y="155" class="cat">iOS development</text>
+
+  <!-- Kotlin -->
+  <rect x="408" y="112" width="368" height="56" rx="12" class="card"/>
+  <rect x="424" y="127" width="26" height="26" rx="7" fill="#26215C"/>
+  <path d="M426 128h12l-12 13 12 13h-12l12-13z" fill="#AFA9EC"/>
+  <text x="458" y="140" class="name">Kotlin</text>
+  <text x="458" y="155" class="cat">Android development</text>
+
+  <!-- Java -->
+  <rect x="24" y="180" width="368" height="56" rx="12" class="card"/>
+  <rect x="40" y="195" width="26" height="26" rx="7" fill="#412402"/>
+  <rect x="44" y="198" width="18" height="14" rx="2" fill="none" stroke="#FAC775" stroke-width="1.2"/>
+  <path d="M46 206l4 3-4 3M52 209h8" stroke="#FAC775" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="74" y="208" class="name">Java</text>
+  <text x="74" y="223" class="cat">OOP / backend</text>
+
+  <!-- VB -->
+  <rect x="408" y="180" width="368" height="56" rx="12" class="card"/>
+  <rect x="424" y="195" width="26" height="26" rx="7" fill="#2C2C2A"/>
+  <rect x="427" y="198" width="20" height="14" rx="2" fill="none" stroke="#B4B2A9" stroke-width="1.2"/>
+  <path d="M430 203h14M430 207h10" stroke="#B4B2A9" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="458" y="208" class="name">Visual Basic</text>
+  <text x="458" y="223" class="cat">.NET / desktop</text>
+
+  <!-- WEB -->
+  <text x="24" y="264" class="sec">Web</text>
+
+  <!-- HTML5 -->
+  <rect x="24" y="276" width="368" height="56" rx="12" class="card"/>
+  <rect x="40" y="291" width="26" height="26" rx="7" fill="#042C53"/>
+  <path d="M44 293l1 13 7 2 7-2 1-13z" stroke="#85B7EB" stroke-width="1.2" fill="none"/>
+  <text x="74" y="304" class="name">HTML5</text>
+  <text x="74" y="319" class="cat">Markup / structure</text>
+
+  <!-- CSS3 -->
+  <rect x="408" y="276" width="368" height="56" rx="12" class="card"/>
+  <rect x="424" y="291" width="26" height="26" rx="7" fill="#26215C"/>
+  <path d="M428 293l1 13 8 2 8-2 1-13z" stroke="#AFA9EC" stroke-width="1.2" fill="none"/>
+  <text x="458" y="304" class="name">CSS3</text>
+  <text x="458" y="319" class="cat">Styling / animation</text>
+
+  <!-- DESIGN -->
+  <text x="24" y="360" class="sec">Design</text>
+
+  <!-- Figma -->
+  <rect x="24" y="372" width="368" height="56" rx="12" class="card"/>
+  <rect x="40" y="387" width="26" height="26" rx="7" fill="#4B1528"/>
+  <circle cx="47" cy="394" r="4" stroke="#ED93B1" stroke-width="1.2" fill="none"/>
+  <circle cx="55" cy="394" r="4" stroke="#ED93B1" stroke-width="1.2" fill="none"/>
+  <circle cx="47" cy="402" r="4" stroke="#ED93B1" stroke-width="1.2" fill="none"/>
+  <rect x="51" y="398" width="8" height="8" rx="2" stroke="#ED93B1" stroke-width="1.2" fill="none"/>
+  <text x="74" y="400" class="name">Figma</text>
+  <text x="74" y="415" class="cat">UI/UX / prototyping</text>
+
+  <!-- DATA -->
+  <text x="24" y="456" class="sec">Data &amp; Backend</text>
+
+  <!-- SQL -->
+  <rect x="24" y="468" width="184" height="56" rx="12" class="card"/>
+  <rect x="40" y="483" width="26" height="26" rx="7" fill="#04342C"/>
+  <ellipse cx="53" cy="489" rx="8" ry="3" stroke="#5DCAA5" stroke-width="1.2" fill="none"/>
+  <path d="M45 489v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6" stroke="#5DCAA5" stroke-width="1.2" fill="none"/>
+  <text x="74" y="495" class="name">SQL</text>
+  <text x="74" y="510" class="cat">Databases</text>
+
+  <!-- Firebase -->
+  <rect x="216" y="468" width="184" height="56" rx="12" class="card"/>
+  <rect x="232" y="483" width="26" height="26" rx="7" fill="#412402"/>
+  <path d="M239 501l5-11 3 5 2-4 4 10z" fill="#FAC775"/>
+  <text x="266" y="495" class="name">Firebase</text>
+  <text x="266" y="510" class="cat">Realtime / auth</text>
+
+  <!-- Supabase -->
+  <rect x="408" y="468" width="184" height="56" rx="12" class="card"/>
+  <rect x="424" y="483" width="26" height="26" rx="7" fill="#04342C"/>
+  <path d="M431 491h10l-5 10z" stroke="#5DCAA5" stroke-width="1.2" fill="none"/>
+  <text x="458" y="495" class="name">Supabase</text>
+  <text x="458" y="510" class="cat">Postgres / BaaS</text>
+
+  <!-- Jupyter -->
+  <rect x="600" y="468" width="176" height="56" rx="12" class="card"/>
+  <rect x="616" y="483" width="26" height="26" rx="7" fill="#412402"/>
+  <circle cx="629" cy="494" r="3" fill="#FAC775"/>
+  <circle cx="629" cy="502" r="3" fill="#FAC775" opacity=".5"/>
+  <circle cx="629" cy="498" r="2" fill="#FAC775" opacity=".75"/>
+  <text x="650" y="495" class="name">Jupyter</text>
+  <text x="650" y="510" class="cat">Notebooks</text>
+
+  <!-- TOOLS -->
+  <text x="24" y="552" class="sec">Tools</text>
+
+  <!-- Git -->
+  <rect x="24" y="564" width="368" height="56" rx="12" class="card"/>
+  <rect x="40" y="579" width="26" height="26" rx="7" fill="#4A1B0C"/>
+  <circle cx="47" cy="584" r="2.5" fill="#F0997B"/>
+  <circle cx="59" cy="584" r="2.5" fill="#F0997B"/>
+  <circle cx="53" cy="596" r="2.5" fill="#F0997B"/>
+  <path d="M47 587v4a6 6 0 006 6m0 0a6 6 0 006-6v-4" stroke="#F0997B" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+  <text x="74" y="592" class="name">Git / GitHub</text>
+  <text x="74" y="607" class="cat">Version control</text>
+</svg>

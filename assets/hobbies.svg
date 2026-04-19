@@ -1,0 +1,36 @@
+<svg width="800" viewBox="0 0 800 80" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Eugenie-A Hobbies</title>
+  <desc>Hobby tags for Eugenie-A</desc>
+  <defs>
+    <style>
+      .tag { font: 500 13px/1 'Segoe UI', sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="800" height="80" fill="#F8F7F4" rx="12"/>
+
+  <!-- Semantic HTML -->
+  <rect x="16" y="20" width="136" height="34" rx="17" fill="#EEEDFE"/>
+  <text x="84" y="42" text-anchor="middle" class="tag" fill="#3C3489">Semantic HTML</text>
+
+  <!-- Web animations -->
+  <rect x="160" y="20" width="134" height="34" rx="17" fill="#E6F1FB"/>
+  <text x="227" y="42" text-anchor="middle" class="tag" fill="#185FA5">Web animations</text>
+
+  <!-- Deployment -->
+  <rect x="302" y="20" width="106" height="34" rx="17" fill="#E1F5EE"/>
+  <text x="355" y="42" text-anchor="middle" class="tag" fill="#0F6E56">Deployment</text>
+
+  <!-- Accessibility -->
+  <rect x="416" y="20" width="116" height="34" rx="17" fill="#FAECE7"/>
+  <text x="474" y="42" text-anchor="middle" class="tag" fill="#993C1D">Accessibility</text>
+
+  <!-- Motion design -->
+  <rect x="540" y="20" width="118" height="34" rx="17" fill="#FAEEDA"/>
+  <text x="599" y="42" text-anchor="middle" class="tag" fill="#854F0B">Motion design</text>
+
+  <!-- SFX / audio -->
+  <rect x="666" y="20" width="100" height="34" rx="17" fill="#FBEAF0"/>
+  <text x="716" y="42" text-anchor="middle" class="tag" fill="#993556">SFX / audio</text>
+
+</svg>
