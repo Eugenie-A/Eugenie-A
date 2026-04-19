@@ -1,56 +1,20 @@
 <svg width="600" height="50" viewBox="0 0 600 50" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      .base { font-family: 'Courier New', monospace; font-size: 16px; fill: #00cc66; }
-
-      /* cursor blink */
-      .cursor { animation: blink 1s step-end infinite; }
-      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
-
-      /* phrase 1 - types on, holds, deletes */
-      .p1 { animation: p1anim 12s linear infinite; }
-      @keyframes p1anim {
-        0%   { clip-path: inset(0 100% 0 0); opacity:1; }
-        20%  { clip-path: inset(0 0% 0 0);   opacity:1; }
-        30%  { clip-path: inset(0 0% 0 0);   opacity:1; }
-        45%  { clip-path: inset(0 100% 0 0); opacity:1; }
-        100% { clip-path: inset(0 100% 0 0); opacity:0; }
-      }
-
-      /* phrase 2 */
-      .p2 { animation: p2anim 12s linear infinite; }
-      @keyframes p2anim {
-        0%   { clip-path: inset(0 100% 0 0); opacity:0; }
-        33%  { clip-path: inset(0 100% 0 0); opacity:0; }
-        34%  { clip-path: inset(0 100% 0 0); opacity:1; }
-        54%  { clip-path: inset(0 0% 0 0);   opacity:1; }
-        64%  { clip-path: inset(0 0% 0 0);   opacity:1; }
-        78%  { clip-path: inset(0 100% 0 0); opacity:1; }
-        100% { clip-path: inset(0 100% 0 0); opacity:0; }
-      }
-
-      /* phrase 3 */
-      .p3 { animation: p3anim 12s linear infinite; }
-      @keyframes p3anim {
-        0%   { clip-path: inset(0 100% 0 0); opacity:0; }
-        66%  { clip-path: inset(0 100% 0 0); opacity:0; }
-        67%  { clip-path: inset(0 100% 0 0); opacity:1; }
-        82%  { clip-path: inset(0 0% 0 0);   opacity:1; }
-        92%  { clip-path: inset(0 0% 0 0);   opacity:1; }
-        99%  { clip-path: inset(0 100% 0 0); opacity:1; }
-        100% { clip-path: inset(0 100% 0 0); opacity:0; }
-      }
-    </style>
-  </defs>
-
-  <!-- prompt -->
-  <text x="0" y="32" class="base">&gt;&nbsp;</text>
-
-  <!-- phrases -->
-  <text x="22" y="32" class="base p1">Passionate Software Developer</text>
-  <text x="22" y="32" class="base p2">Immersed in Anime &amp; Games</text>
-  <text x="22" y="32" class="base p3">Music &amp; SFX Production</text>
-
-  <!-- cursor -->
-  <rect x="22" y="14" width="9" height="20" fill="#00cc66" class="cursor"/>
+<defs>
+<style>
+.base { font-family: 'Courier New', monospace; font-size: 16px; fill: #00cc66; }
+.cursor { animation: blink 1s step-end infinite; }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+</style>
+<clipPath id="clip0"><rect id="cr0" x="22" y="0" width="0" height="50"/></clipPath>
+<clipPath id="clip1"><rect id="cr1" x="22" y="0" width="0" height="50"/></clipPath>
+<clipPath id="clip2"><rect id="cr2" x="22" y="0" width="0" height="50"/></clipPath>
+</defs>
+<text x="0" y="32" style="font-family:'Courier New',monospace;font-size:16px;fill:#00cc66;">&gt; </text>
+<text x="22" y="32" clip-path="url(#clip0)" style="font-family:'Courier New',monospace;font-size:16px;fill:#00cc66;">Passionate Software Developer</text>
+<animate href="#cr0" attributeName="width" values="0;0;278.4;278.4;0;0" keyTimes="0;0.0000;0.1475;0.2565;0.3408;1" dur="13.76s" repeatCount="indefinite" calcMode="linear"/>
+<text x="22" y="32" clip-path="url(#clip1)" style="font-family:'Courier New',monospace;font-size:16px;fill:#00cc66;">Immersed in Anime &amp; Games</text>
+<animate href="#cr1" attributeName="width" values="0;0;240.0;240.0;0;0" keyTimes="0;0.3626;0.4898;0.5988;0.6715;1" dur="13.76s" repeatCount="indefinite" calcMode="linear"/>
+<text x="22" y="32" clip-path="url(#clip2)" style="font-family:'Courier New',monospace;font-size:16px;fill:#00cc66;">Music &amp; SFX Production</text>
+<animate href="#cr2" attributeName="width" values="0;0;211.2;211.2;0;0" keyTimes="0;0.6933;0.8052;0.9142;0.9782;1" dur="13.76s" repeatCount="indefinite" calcMode="linear"/>
+<rect x="22" y="13" width="9" height="20" fill="#00cc66" class="cursor"/>
 </svg>
