@@ -1,24 +1,56 @@
-<svg width="500" height="44" viewBox="0 0 500 44" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="50" viewBox="0 0 600 50" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .p1 { animation: slide 9s cubic-bezier(0.4, 0, 0.2, 1) 0s infinite; }
-      .p2 { animation: slide 9s cubic-bezier(0.4, 0, 0.2, 1) 3s infinite; }
-      .p3 { animation: slide 9s cubic-bezier(0.4, 0, 0.2, 1) 6s infinite; }
-      @keyframes slide {
-        0%   { transform: translateY(44px); opacity: 0; }
-        5%   { transform: translateY(0);    opacity: 1; }
-        28%  { transform: translateY(0);    opacity: 1; }
-        33%  { transform: translateY(-44px); opacity: 0; }
-        100% { transform: translateY(-44px); opacity: 0; }
+      .base { font-family: 'Courier New', monospace; font-size: 16px; fill: #00cc66; }
+
+      /* cursor blink */
+      .cursor { animation: blink 1s step-end infinite; }
+      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+      /* phrase 1 - types on, holds, deletes */
+      .p1 { animation: p1anim 12s linear infinite; }
+      @keyframes p1anim {
+        0%   { clip-path: inset(0 100% 0 0); opacity:1; }
+        20%  { clip-path: inset(0 0% 0 0);   opacity:1; }
+        30%  { clip-path: inset(0 0% 0 0);   opacity:1; }
+        45%  { clip-path: inset(0 100% 0 0); opacity:1; }
+        100% { clip-path: inset(0 100% 0 0); opacity:0; }
+      }
+
+      /* phrase 2 */
+      .p2 { animation: p2anim 12s linear infinite; }
+      @keyframes p2anim {
+        0%   { clip-path: inset(0 100% 0 0); opacity:0; }
+        33%  { clip-path: inset(0 100% 0 0); opacity:0; }
+        34%  { clip-path: inset(0 100% 0 0); opacity:1; }
+        54%  { clip-path: inset(0 0% 0 0);   opacity:1; }
+        64%  { clip-path: inset(0 0% 0 0);   opacity:1; }
+        78%  { clip-path: inset(0 100% 0 0); opacity:1; }
+        100% { clip-path: inset(0 100% 0 0); opacity:0; }
+      }
+
+      /* phrase 3 */
+      .p3 { animation: p3anim 12s linear infinite; }
+      @keyframes p3anim {
+        0%   { clip-path: inset(0 100% 0 0); opacity:0; }
+        66%  { clip-path: inset(0 100% 0 0); opacity:0; }
+        67%  { clip-path: inset(0 100% 0 0); opacity:1; }
+        82%  { clip-path: inset(0 0% 0 0);   opacity:1; }
+        92%  { clip-path: inset(0 0% 0 0);   opacity:1; }
+        99%  { clip-path: inset(0 100% 0 0); opacity:1; }
+        100% { clip-path: inset(0 100% 0 0); opacity:0; }
       }
     </style>
   </defs>
-  <clipPath id="clip">
-    <rect width="500" height="44"/>
-  </clipPath>
-  <g clip-path="url(#clip)">
-    <text class="p1" x="0" y="28" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="500" fill="#c9d1d9">Passionate Software Developer</text>
-    <text class="p2" x="0" y="28" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="500" fill="#c9d1d9">Immersed in Anime &amp; Games</text>
-    <text class="p3" x="0" y="28" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="500" fill="#c9d1d9">Music &amp; SFX Production</text>
-  </g>
+
+  <!-- prompt -->
+  <text x="0" y="32" class="base">&gt;&nbsp;</text>
+
+  <!-- phrases -->
+  <text x="22" y="32" class="base p1">Passionate Software Developer</text>
+  <text x="22" y="32" class="base p2">Immersed in Anime &amp; Games</text>
+  <text x="22" y="32" class="base p3">Music &amp; SFX Production</text>
+
+  <!-- cursor -->
+  <rect x="22" y="14" width="9" height="20" fill="#00cc66" class="cursor"/>
 </svg>
